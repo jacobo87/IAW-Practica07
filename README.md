@@ -26,3 +26,4 @@ Necesitará crear cuatro máquinas virtuales:
 - https://josejuansanchez.org/iaw/practica-07/index.html
 - [Simple Load Balancing](https://www.nginx.com/resources/wiki/start/topics/examples/loadbalanceexample/tp:// "Simple Load Balancing")
 - [Nginx Load Balancing - HTTP Load Balancer](https://docs.nginx.com/nginx/admin-guide/load-balancer/http-load-balancer/:// "Nginx Load Balancing - HTTP Load Balancer")
+- [Balanceador de carga Nginx](https://picodotdev.github.io/blog-bitix/2016/07/configurar-nginx-como-balanceador-de-carga/)
