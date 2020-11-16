@@ -1,4 +1,4 @@
-http {
+server {
     # ---------------------------------- Proxy de las solicitudes HTTP --------------------------------------
     # Definimos el grupo con la directiva upstream
     # Grupo de servidores --- frontend ---
