@@ -19,18 +19,8 @@ Necesitará crear cuatro máquinas virtuales:
 - Frontal Web 1.
 - Frontal Web 2.
 - Servidor de Base de Datos MySQL.
-
-### 1.2 Entregables
-
-En esta práctica habrá que entregar un documento técnico con la descripción de los pasos que se han llevado a cabo.
-
-El documento debe incluir como mínimo lo siguientes contenidos:
-
-- URL del repositorio de GitHub donde se ha alojado el documento técnico escrito en Markdown.
-
 - Scripts de bash utilizados para realizar el aprovisionamiento de las máquinas virtuales.
 
-- Tenga en cuenta que el aprovisionamiento de las máquinas virtuales se realizará mediante un script de bash. Cada máquina usará su propio script. El contenido de cada uno de los scripts deberá ser incluido en el documento y deberá describir qué acciones se han ido realizando en cada uno de ellos.
 
 ## REFERENCIAS
 - https://josejuansanchez.org/iaw/practica-07/index.html
