@@ -12,6 +12,6 @@ apt-get update
 # Instalamos el servidor web Apache -y le decimos que si
 apt-get install nginx -y
 # Movemos el archivo de configuración ya modificado previamente
-cp nginx.conf /etc/nginx/
+cp default /etc/nginx/sites-enabled/
 # Reiniciamos el servicio de nginx
 systemctl restart nginx
