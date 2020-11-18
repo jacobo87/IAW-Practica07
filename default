@@ -1,8 +1,7 @@
-http {
     # ---------------------------------- Proxy de las solicitudes HTTP --------------------------------------
     # Definimos el grupo con la directiva upstream
     # Grupo de servidores --- frontend ---
-    upstream frontend {
+upstream frontend {
         # No se especifica ningún método de balanceo de carga para el Round Robin
 
         # Conexiones mínimas - Se envía una solicitud al servidor con el menor número de conexiones activas
@@ -21,12 +20,11 @@ http {
         # server  10.0.0.1:8002 down;
     }
 
-    server {
-        listen 80;
-        server_name _;
-        location / {
-            # Definimos el nombre del proxy para pasar solicitudes
-            proxy_pass http://frontend;
-        }
-    }
+server {
+   listen 80;
+
+   location / {
+       # Definimos el nombre del proxy para pasar solicitudes
+      proxy_pass http://frontend;
+   }
 }
